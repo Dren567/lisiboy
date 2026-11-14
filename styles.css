@@ -1,4 +1,3 @@
-/* ===== Reset & base ===== */
 *,
 *::before,
 *::after {
@@ -31,7 +30,6 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-/* ===== Layout ===== */
 main {
     max-width: 720px;
     margin: 0 auto;
@@ -42,7 +40,6 @@ main {
     padding: 2.5rem 2rem;
 }
 
-/* ===== Sections ===== */
 section {
     margin-bottom: 2.25rem;
 }
@@ -54,7 +51,6 @@ hr {
     margin: 2.25rem 0;
 }
 
-/* ===== Typography ===== */
 p {
     margin-bottom: 1rem;
     color: var(--text);
@@ -93,7 +89,6 @@ h6 { font-size: 0.875rem;
      letter-spacing: 0.06em;
      color: var(--muted); }
 
-/* ===== Other elements ===== */
 q {
     quotes: "\201C" "\201D";
     font-style: italic;
@@ -120,7 +115,6 @@ address {
     border-left: 3px solid var(--border);
 }
 
-/* ===== Small screens ===== */
 @media (max-width: 540px) {
     body {
         padding: 1rem 0.5rem;
